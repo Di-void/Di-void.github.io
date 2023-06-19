@@ -29,23 +29,32 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1gBAXswZ46DjmwlrPyvY9krruJt-xha46/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
     'Laravel',
     'JavaScript',
+    'Typescript',
     'React.js',
+    'Next.js',
     'Node.js',
     'Express.JS',
-    'Next.js',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
     'Git',
     'CSS',
     'Tailwind',
   ],
   experiences: [
+    {
+      company: 'Mundane Labs Inc',
+      position: 'Software Engineer',
+      from: 'January 2023',
+      to: 'April 2023',
+      companyLink: 'https://github.com/mundane-labs',
+    },
     {
       company: 'Prifina Inc',
       position: 'Frontend Developer Intern',

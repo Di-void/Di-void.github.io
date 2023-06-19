@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Di-void', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,21 +11,21 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'don-akhirebhulu-675082242',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'deezy',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'dandonpaul@gmail.com',
   },
   resume: {
     fileUrl:
@@ -37,30 +37,28 @@ const config = {
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Express.JS',
+    'Next.js',
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Prifina Inc',
+      position: 'Frontend Developer Intern',
+      from: 'September 2022',
+      to: 'December 2022',
+      companyLink: 'https://www.prifina.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'LinuxJobber Inc',
+      position: 'Frontend Developer Intern',
+      from: 'September 2022',
+      to: 'October 2022',
+      companyLink: '',
     },
   ],
   /* certifications: [
@@ -73,40 +71,54 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Aptech Computer Education',
+      degree: 'Advanced Diploma in SE',
+      from: '2021',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Topflight College',
+      degree: 'O Levels',
+      from: '2014',
+      to: '2020',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Countries',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Search and discover different countries around the world!',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://countries-react-ts.netlify.app/',
     },
     {
-      title: 'Project Name',
+      title: 'Dees Todo',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Not your regular todo list apps. Sort your tasks by dragging and dropping and more.. :)',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'http://dees-todolist.netlify.app/',
+    },
+    {
+      title: 'Url Shortener',
+      description:
+        'Url shortener app made with ReactJS',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://shortly-reactapp.netlify.app/',
+    },
+    {
+      title: 'Url Shortener Backend',
+      description:
+        'Url shortener backend made with NodeJS and Express',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://github.com/Di-void/hi-counselor-url-shortener',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -118,7 +130,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -133,36 +145,9 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
       'retro',
-      'cyberpunk',
-      'valentine',
       'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
